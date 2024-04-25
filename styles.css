@@ -1,6 +1,6 @@
 .container {
-    padding-left: 200px;
-    padding-right: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -22,8 +22,7 @@ header {
 summary {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    gap: 20px;
+    justify-content: space-between;
 }
 
 .summary-left {
@@ -60,4 +59,36 @@ summary {
 summary img {
     width: 400px;
     height: auto;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+}
+
+article h3 {
+    font-size: 30px;
+}
+
+article img {
+    width: 200px;
+    height:200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.movie-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.movie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
