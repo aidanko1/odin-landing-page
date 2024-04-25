@@ -1,6 +1,7 @@
 .container {
     padding-left: 200px;
     padding-right: 200px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -16,4 +17,47 @@ header {
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+}
+
+summary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.summary-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 500px;
+}
+
+.summary-left h1,
+.summary-left p,
+.summary-left button {
+    margin: 0;
+}
+
+.summary-left h1 {
+    font-size: 40px;
+}
+
+.summary-left p {
+    font-size: 20px;
+}
+
+.summary-left button {
+    width:fit-content;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    background-color:#3882F6;
+}
+
+summary img {
+    width: 400px;
+    height: auto;
 }
